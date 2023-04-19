@@ -45,6 +45,8 @@ const Explore = () => {
         });
     };
     
+    // Fetch Next page data
+
     const fetchNextPageData = () => {
         fetchDataFromApi(
             `/discover/${mediaType}?page=${pageNum}`,
