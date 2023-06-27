@@ -71,27 +71,32 @@
             cursor: pointer;
             transition: all ease 0.3s;
 
-            &:nth-child(1):hover {
+            .link{
+                text-decoration: none;
+                color: inherit;
+            }
+
+            &:nth-child(4):hover {
                 box-shadow: 0 0 0.625em blue;
                 color: blue;
             }
 
-            &:nth-child(2):hover {
+            &:nth-child(3):hover {
                 box-shadow: 0 0 0.625em var(--pink);
                 color: var(--pink);
             }
 
-            &:nth-child(3):hover {
+            &:nth-child(2):hover {
                 box-shadow: 0 0 0.625em rgb(0, 183, 255);
                 color: rgb(0, 183, 255);
             }
 
-            &:nth-child(4):hover {
+            &:nth-child(5):hover {
                 box-shadow: 0 0 0.625em red;
                 color: red;
             }
 
-            &:nth-child(5):hover {
+            &:nth-child(1):hover {
                 box-shadow: 0 0 0.625em #0077b5;
                 color: #0077b5;
             }

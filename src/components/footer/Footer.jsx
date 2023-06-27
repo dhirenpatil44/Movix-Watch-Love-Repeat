@@ -27,20 +27,27 @@ const Footer = () => {
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
+                        <a href="https://www.linkedin.com/in/dhirenpatil44/" target="_blank" className="link">
+                            <FaLinkedin />
+                        </a>
+                    </span>
+                    <span className="icon">
+                        <a href="https://twitter.com/dhiren_patil_03" target="_blank" className="link">
+                            <FaTwitter />
+                        </a>
+                    </span>
+                    <span className="icon">
+                        <a href="https://www.instagram.com/dhiren_patil_03/" target="_blank" className="link">
+                            <FaInstagram />
+                        </a>
+                    </span>
+                    <span className="icon">
                         <FaFacebookF />
-                    </span>
-                    <span className="icon">
-                        <FaInstagram />
-                    </span>
-                    <span className="icon">
-                        <FaTwitter />
                     </span>
                     <span className="icon">
                         <FaYoutube />
                     </span>
-                    <span className="icon">
-                        <FaLinkedin />
-                    </span>
+
                 </div>
             </ContentWrapper>
         </footer>
